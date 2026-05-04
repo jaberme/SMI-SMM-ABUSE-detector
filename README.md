@@ -27,7 +27,7 @@ Lo que detecta
  
 Lo que NO hace
 --------------
-- No accede a SMRAM (es por diseño inaccesible al SO desde un dump).
+- No accede a SMRAM (es por diseño inaccesible al SO desde un dump). Se puede extraer inforamción adicional vía chipsec.
 - No verifica el estado de bloqueo SMRR/D_LCK por hardware (no recuperable
   fiablemente desde un dump de software).
 - No detecta rootkits SMM activos (que son invisibles al SO).
