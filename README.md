@@ -42,4 +42,4 @@ Instalación y uso
     vol -f memory.raw windows.smi_smm_abuse
     vol -f memory.raw windows.smi_smm_abuse --severity high
     vol -r csv -f memory.raw windows.smi_smm_abuse > findings.csv
-"""
+
